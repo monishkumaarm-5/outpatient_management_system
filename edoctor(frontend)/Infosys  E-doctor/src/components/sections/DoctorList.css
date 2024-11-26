@@ -1,0 +1,48 @@
+/* DoctorList.css */
+.doctor-list {
+    padding: 20px;
+  }
+  
+  .add-doctor-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #080808;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #fdf8f7;
+  }
+  
+  /* CreateDoctor.css */
+  .create-doctor {
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
