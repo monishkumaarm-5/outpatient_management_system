@@ -8,4 +8,10 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="connectionManager">
+    <option name="activeConnectionId" value="sso;us-east-1;https://view.awsapps.com/start" />
+  </component>
+>>>>>>> 20e7709e (Module 2)
 </project>
