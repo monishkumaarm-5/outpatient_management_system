@@ -20,19 +20,11 @@ public class Availability {
     @Column(nullable = false)
     private LocalDate endDate;
 
-<<<<<<< HEAD
-//    @Column(nullable = false)
-//    private LocalTime fromTime;
-//
-//    @Column(nullable = false)
-//    private LocalTime toTime;
-=======
     @Column(nullable = false)
     private LocalTime fromTime;
 
     @Column(nullable = false)
     private LocalTime toTime;
->>>>>>> cf5a0064cbc3cb72d1577d23d9215595507e9484
 
     public Availability() {
     }
@@ -41,13 +33,8 @@ public class Availability {
         this.doctorId = doctorId;
         this.startDate = startDate;
         this.endDate = endDate;
-<<<<<<< HEAD
-//        this.fromTime = fromTime;
-//        this.toTime = toTime;
-=======
         this.fromTime = fromTime;
         this.toTime = toTime;
->>>>>>> cf5a0064cbc3cb72d1577d23d9215595507e9484
     }
 
     // Getters and Setters
@@ -83,23 +70,6 @@ public class Availability {
         this.endDate = endDate;
     }
 
-<<<<<<< HEAD
-//    public LocalTime getFromTime() {
-//        return fromTime;
-//    }
-//
-//    public void setFromTime(LocalTime fromTime) {
-//        this.fromTime = fromTime;
-//    }
-//
-//    public LocalTime getToTime() {
-//        return toTime;
-//    }
-//
-//    public void setToTime(LocalTime toTime) {
-//        this.toTime = toTime;
-//    }
-=======
     public LocalTime getFromTime() {
         return fromTime;
     }
@@ -115,5 +85,4 @@ public class Availability {
     public void setToTime(LocalTime toTime) {
         this.toTime = toTime;
     }
->>>>>>> cf5a0064cbc3cb72d1577d23d9215595507e9484
 }

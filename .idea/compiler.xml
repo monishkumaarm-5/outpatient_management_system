@@ -7,7 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="eDoctor" />
+=======
+>>>>>>> cf5a0064cbc3cb72d1577d23d9215595507e9484
       </profile>
     </annotationProcessing>
   </component>

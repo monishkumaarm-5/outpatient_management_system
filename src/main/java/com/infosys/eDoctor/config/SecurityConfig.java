@@ -20,9 +20,6 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeHttpRequests(authz -> authz
-<<<<<<< HEAD
-                        .anyRequest().permitAll()) // Allow all requests
-=======
                         .requestMatchers(
                                 "/addUser",
                                 "/loginUser",
@@ -32,7 +29,6 @@ public class SecurityConfig {
                                 "/availability/**"
                         ).permitAll()
                         .anyRequest().authenticated())
->>>>>>> cf5a0064cbc3cb72d1577d23d9215595507e9484
                 .formLogin(form -> form
                         .loginPage("/login")
                         .defaultSuccessUrl("/dashboard", true)
